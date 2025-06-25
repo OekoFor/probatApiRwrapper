@@ -37,7 +37,7 @@ ecopi_api <- function(resource, ...,
                       params = list(),
                       new_data = list(),
                       file_path,
-                      base_url = getOption("ecopiapi.base_url", "https://api.ecopi.de/api/v0.2")) {
+                      base_url = getOption("ecopiapi.base_url", "http://127.0.0.1:8008/api/v0.1")) {
   params <- lapply(params, paste, collapse = ",")
   new_data <- lapply(new_data, function(x) if (identical(x, "")) jsonlite::unbox(NULL) else paste(x, collapse = ","))
 
