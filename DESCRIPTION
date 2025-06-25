@@ -1,16 +1,18 @@
 Package: probatApiRwrapper
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R package to interact with the probat API
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Frederic", "Dutzi",
+      email = "dutzi@oekofor.de",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: R Package which wraps around the probat API.
+    Consists of GET-, POST-, PATCH-, -functionalities with one R function for each endpoint.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/machmaleinheelflip/probatApiRwrapper
+BugReports: https://github.com/machmaleinheelflip/probatApiRwrapper/issues
